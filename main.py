@@ -30,7 +30,7 @@ temp1 = filename
 # Se verifica si existe el point cloud
 if os.path.exists(temp1):
     #pcu.visualizePC(filename)
-    pcu.visualizeXYZ(filename)
+    pcu.visualizeXYZ(filename, 0.38, 0.08, 0.06, 0.1, 0.04)
     
 # De no existir se crea el point cloud
 else:
