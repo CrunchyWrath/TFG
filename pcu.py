@@ -222,11 +222,11 @@ def visualizeXYZ(image, HRadius, DBHRadius, verticality, curvature, voxelize):
     
     getHeight(image, My_treetool.non_ground_cloud.xyz, HRadius)
 
-    getRMSE("./Results/EURO1.csv", "./realValues/TLS_Benchmarking_Plot_1_LHD.txt")
+    #getRMSE("./Results/EURO1.csv", "./realValues/TLS_Benchmarking_Plot_1_LHD.txt")
     #getRMSE("./Results/EURO2.csv", "./realValues/TLS_Benchmarking_Plot_2_LHD.txt")
     #getRMSE("./Results/EURO3.csv", "./realValues/TLS_Benchmarking_Plot_3_LHD.txt")
     #getRMSE("./Results/EURO4.csv", "./realValues/TLS_Benchmarking_Plot_4_LHD.txt")
-    getRMSE("./Results/EURO5.csv", "./realValues/TLS_Benchmarking_Plot_5_LHD.txt")
+    #getRMSE("./Results/EURO5.csv", "./realValues/TLS_Benchmarking_Plot_5_LHD.txt")
     #getRMSE("./Results/EURO6.csv", "./realValues/TLS_Benchmarking_Plot_6_LHD.txt")
 
 
